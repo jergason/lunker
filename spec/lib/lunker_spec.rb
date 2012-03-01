@@ -27,7 +27,7 @@ describe Lunker do
     let(:so) { Lunker::StackOverflow.new }
     it 'lets you get a specified number of users' do
       users = so.users(295, { :order => "desc", :sort => "reputation" })
-      users.length.should == 295
+      users.length.should == 300
     end
   end
 

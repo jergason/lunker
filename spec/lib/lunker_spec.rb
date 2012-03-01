@@ -2,20 +2,32 @@ require 'spec_helper'
 
 describe Lunker do
   it 'has a configuration block that takes a configuration object' do
-    Lunker.configure do |conf|
-      conf.api_key = 'foobar'
-    end
+    #Lunker.configure do |conf|
+      #conf.api_key = 'foobar'
+    #end
 
-    Lunker.configuration.api_key.should == 'foobar'
+    #Lunker.configuration.api_key.should == 'foobar'
   end
 
-  describe Lunker::Lunk do
-    let(:lunk) { Lunker::Lunk.new }
-    let(:user_id) { 78093 }
+  describe 'requests remaining' do
 
-    it 'returns a user object' do
-        user = lunk.user(user_id)
-        user.should_not be_nil
+    it 'has a requests_remaining module variable' do
+      defined?(Lunker.requests_remaining).should be_true
+      Lunker.requests_remaining.should == 10000
+    end
+
+    it 'updates as the api is used' do
+      #TODO: this is a horrible way to test this
+      Lunker::User.new(78093).answers
+      Lunker.requests_remaining.should be < 10000
+    end
+  end
+
+  describe Lunker::StackOverflow do
+    let(:so) { Lunker::StackOverflow.new }
+    it 'lets you get a specified number of users' do
+      users = so.users(295, { :order => "desc", :sort => "reputation" })
+      users.length.should == 295
     end
   end
 

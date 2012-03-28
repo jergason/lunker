@@ -1,0 +1,269 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.stackexchange.com/2.0/users/78093/tags?filter=!T5FUCxHumN2QdgS1Nc&key=bb855F7mbVFTS9Jwe69THg((&pagesize=100&site=stackoverflow
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Encoding:
+      - gzip
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Access-Control-Allow-Methods:
+      - GET, POST
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Date:
+      - Wed, 28 Mar 2012 20:08:27 GMT
+      Content-Length:
+      - '1217'
+      X-Cache:
+      - MISS from drclaw.cs.byu.edu
+      X-Cache-Lookup:
+      - MISS from drclaw.cs.byu.edu:3128
+      Via:
+      - 1.1 drclaw.cs.byu.edu:3128 (squid/2.7.STABLE9)
+      Connection:
+      - keep-alive
+      Proxy-Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAOy9B2AcSZYlJi9tynt/SvVK1+B0oQiAYBMk2JBAEOzBiM3m
+        kuwdaUcjKasqgcplVmVdZhZAzO2dvPfee++999577733ujudTif33/8/XGZk
+        AWz2zkrayZ4hgKrIHz9+fB8/In7xR0WbL5qPHn3vF3+0zBb5R48+qteT649G
+        H02r9bL96NG9T0cfFc3vX+e/aF3U+eyjR+dZ2eT82aKa5XXWVvXvXy3La/vN
+        usnr37+glg8Odh7eG300z5rfv7leVstr9MONfsko6G27Wm7XWVE2rtu9vW+2
+        27Ze+73O6vUqK73udr/Z7jaOcvue63j34JvtuDPOYjWvlrnX3YOf1e5W85XX
+        1zfMOZ2+pl5PO99sT93Zm37yievs4TfbV5Qxtz/9Weuvx5nNKvdI+Q2zY7e3
+        n84us2ZaF6vWdfmzy5LV5KfzaVtc5tveKH92OfOnm2rp+rr/s9rX4rr5RZ4e
+        +9ntbFpNq+xnrbOe1KG37bZaT+c/tD5V/O67Dvd/djucV4v8qqrf/qx12JnC
+        pq2L5cUPrbdLTxDu/ex2VSyztva48xvuLqo3935o3a3y2hPzn+XOCMi69LyG
+        b7i7zswtCcb4pz3f72e3u6p598PqanXdzn1T8A331lOYzeXPWl+dkc1ET55n
+        q+Jnrcve8Mqs+aFxyXTxs9dVd2CT9XJW5rUXjfzs9jetlm2+bLcX2TK7yBf0
+        6w+t61nWZotstfohjlZZVXSaH2F+s912+aeq822M9ofV4eyns+VF9bPWW4+H
+        fvxnravOwDL23uucKDr7ofXZrMbL/GdPLDrdraqCJLL+oTEnorAfVl/40ayy
+        6Q9P9BaXXqT3s9vVT/+idV57ybKf3d7oSy8S+ob76gr4vF34+bGf3c7OizLf
+        Ln72tFeHkOdV7Zv3n93OyML+sLoqlvO8LtpsOfWc95/lLqsfGiHLYvk2r7fz
+        uq5+eN5DnZ+T7fkhErQOM8Xj3Z+1jrtDpW/azIuNfpa7w0BJNn722KfbYZs3
+        bZD7+Ib760zkuykB+WF11s7Jj/dIufuz3BuJIpFyu1nRbx7LfMPd9mYQuq1Y
+        e/r0Z7vD6m2+LH7gL6B8sx12CXtVtK0fG33D3XXHt5756zU/y30VZTbJPZ/i
+        Z72/ZXZZXGRtUS0R8dZVWf4wSUu8OinzyyK/mublD3PYbVWVk+yHOVIM8ofY
+        3VWxnFU/xA6XRajKf/b7o7Dih9Sd6W6bRITWBjIKRH94Pa8oQfJDHCi13uZA
+        +zzz/blvuNs2VOmXWVnMWAn98HqsC6ie7axpiotlmN/7We76h6kIrvLJ2+Jn
+        b2iR7upi+vaH2V9T/CyKR2fqrubUGSdqftZ67I2QMnqrOveT+j/LPTbrIPP8
+        s9wbRVPVslp4+aGf7Q5nXob0G+6rwy5NNX2btz97M9ftbpVd/ewp0B6b/KKf
+        PX+tO7BfVJLc3ftZ6y4yNPS3jej7h9dpm7Xrnz1e6XdX1bSw9cPrb5otz3+I
+        vVWrH+LY8qyeelnnb7i7rjTk0zUlMH/2OLPXX5lPCcQPkTfJ3P2s+4LfH330
+        i9ZVmxHYBXn0SHo9evhwd898vKA036PdHXrk9UVV5/rq/xMAAP//PNyptBAs
+        AAA=
+    http_version: 
+  recorded_at: Wed, 28 Mar 2012 20:08:28 GMT
+- request:
+    method: get
+    uri: http://api.stackexchange.com/2.0/users/78093/tags?filter=!T5FUCxHumN2QdgS1Nc&key=bb855F7mbVFTS9Jwe69THg((&page=1&pagesize=100&site=stackoverflow
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Encoding:
+      - gzip
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Access-Control-Allow-Methods:
+      - GET, POST
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Date:
+      - Wed, 28 Mar 2012 20:08:27 GMT
+      Content-Length:
+      - '1217'
+      X-Cache:
+      - MISS from drclaw.cs.byu.edu
+      X-Cache-Lookup:
+      - MISS from drclaw.cs.byu.edu:3128
+      Via:
+      - 1.1 drclaw.cs.byu.edu:3128 (squid/2.7.STABLE9)
+      Connection:
+      - keep-alive
+      Proxy-Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAOy9B2AcSZYlJi9tynt/SvVK1+B0oQiAYBMk2JBAEOzBiM3m
+        kuwdaUcjKasqgcplVmVdZhZAzO2dvPfee++999577733ujudTif33/8/XGZk
+        AWz2zkrayZ4hgKrIHz9+fB8/In7xR0WbL5qPHn3vF3+0zBb5R48+qteT649G
+        H02r9bL96NG9T0cfFc3vX+e/aF3U+eyjR+dZ2eT82aKa5XXWVvXvXy3La/vN
+        usnr37+glg8Odh7eG300z5rfv7leVstr9MONfsko6G27Wm7XWVE2rtu9vW+2
+        27Ze+73O6vUqK73udr/Z7jaOcvue63j34JvtuDPOYjWvlrnX3YOf1e5W85XX
+        1zfMOZ2+pl5PO99sT93Zm37yievs4TfbV5Qxtz/9Weuvx5nNKvdI+Q2zY7e3
+        n84us2ZaF6vWdfmzy5LV5KfzaVtc5tveKH92OfOnm2rp+rr/s9rX4rr5RZ4e
+        +9ntbFpNq+xnrbOe1KG37bZaT+c/tD5V/O67Dvd/djucV4v8qqrf/qx12JnC
+        pq2L5cUPrbdLTxDu/ex2VSyztva48xvuLqo3935o3a3y2hPzn+XOCMi69LyG
+        b7i7zswtCcb4pz3f72e3u6p598PqanXdzn1T8A331lOYzeXPWl+dkc1ET55n
+        q+Jnrcve8Mqs+aFxyXTxs9dVd2CT9XJW5rUXjfzs9jetlm2+bLcX2TK7yBf0
+        6w+t61nWZotstfohjlZZVXSaH2F+s912+aeq822M9ofV4eyns+VF9bPWW4+H
+        fvxnravOwDL23uucKDr7ofXZrMbL/GdPLDrdraqCJLL+oTEnorAfVl/40ayy
+        6Q9P9BaXXqT3s9vVT/+idV57ybKf3d7oSy8S+ob76gr4vF34+bGf3c7OizLf
+        Ln72tFeHkOdV7Zv3n93OyML+sLoqlvO8LtpsOfWc95/lLqsfGiHLYvk2r7fz
+        uq5+eN5DnZ+T7fkhErQOM8Xj3Z+1jrtDpW/azIuNfpa7w0BJNn722KfbYZs3
+        bZD7+Ib760zkuykB+WF11s7Jj/dIufuz3BuJIpFyu1nRbx7LfMPd9mYQuq1Y
+        e/r0Z7vD6m2+LH7gL6B8sx12CXtVtK0fG33D3XXHt5756zU/y30VZTbJPZ/i
+        Z72/ZXZZXGRtUS0R8dZVWf4wSUu8OinzyyK/mublD3PYbVWVk+yHOVIM8ofY
+        3VWxnFU/xA6XRajKf/b7o7Dih9Sd6W6bRITWBjIKRH94Pa8oQfJDHCi13uZA
+        +zzz/blvuNs2VOmXWVnMWAn98HqsC6ie7axpiotlmN/7We76h6kIrvLJ2+Jn
+        b2iR7upi+vaH2V9T/CyKR2fqrubUGSdqftZ67I2QMnqrOveT+j/LPTbrIPP8
+        s9wbRVPVslp4+aGf7Q5nXob0G+6rwy5NNX2btz97M9ftbpVd/ewp0B6b/KKf
+        PX+tO7BfVJLc3ftZ6y4yNPS3jej7h9dpm7Xrnz1e6XdX1bSw9cPrb5otz3+I
+        vVWrH+LY8qyeelnnb7i7rjTk0zUlMH/2OLPXX5lPCcQPkTfJ3P2s+4LfH330
+        i9ZVmxHYBXn0SHo9evhwd9d8vKA036PdHXrk9UVV5/rq/xMAAP//wqdJ0BAs
+        AAA=
+    http_version: 
+  recorded_at: Wed, 28 Mar 2012 20:08:28 GMT
+- request:
+    method: get
+    uri: http://api.stackexchange.com/2.0/users/78093/tags?filter=!T5FUCxHumN2QdgS1Nc&key=bb855F7mbVFTS9Jwe69THg((&page=2&pagesize=100&site=stackoverflow
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Encoding:
+      - gzip
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Access-Control-Allow-Methods:
+      - GET, POST
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Date:
+      - Wed, 28 Mar 2012 20:08:28 GMT
+      Content-Length:
+      - '1225'
+      X-Cache:
+      - MISS from drclaw.cs.byu.edu
+      X-Cache-Lookup:
+      - MISS from drclaw.cs.byu.edu:3128
+      Via:
+      - 1.1 drclaw.cs.byu.edu:3128 (squid/2.7.STABLE9)
+      Connection:
+      - keep-alive
+      Proxy-Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAOy9B2AcSZYlJi9tynt/SvVK1+B0oQiAYBMk2JBAEOzBiM3m
+        kuwdaUcjKasqgcplVmVdZhZAzO2dvPfee++999577733ujudTif33/8/XGZk
+        AWz2zkrayZ4hgKrIHz9+fB8/In7xR0WbL5qPHn3vF3+0zBb5R48+qvPzvK7z
+        +qPRR9NqvWw/erQ7+qhofv86/0Xros5nHz06z8om588W1Syvs7aqf/9qWV7b
+        b9ZNXv/+BbV8cLDz8N7oo3nW/P7N9bJaXqMrbvRLRl6HF/m7n7Xe2noddlbm
+        WZP/rHXXHdwqr8vtWdZm2w1hMm3Xdd780Dqv15NiWax/eB2WxXL9szeV/d6a
+        9metsw7fLLLpqqrbHx4pF9nbHx6XorPzovzZ67BHzeX1dltt4+cPr8/67ay6
+        Wv6s9dcjar6o6uvtslgUP3tsOtApETa7yBf58mev5y558zZb1dVFnS0WxfLi
+        h9jtvJr97Illt7uCBtgW1c8eF/U6fFcsf/aG12MfAlL+0Horqmb/Z62zDiGL
+        VTb7ofW1bMmn+dnzoCLd1efZNN+erIty9rPYcW8CV/NqmW83s7fb98a7Pxfd
+        7o93fta67ZK5FRA/rP5+OivKSZ1nb3/WOuzS9SKvymr6s6vfen1WP2tddeh5
+        UVUXZb49ndfV4ofm6QSdbs/yy7aqyh+ePtfuF9mq2c5Wxfa9n7Weu+Ous9X8
+        h9XZeVUvti+zspj9kHl3Ov2h9XVeXv6s9dUlZ3m5KrPrSTb94ameeduuLvN6
+        8sMTjWJWVAvilx/eFBbnlATI2h+qW14sKA7YJsd8mjfNz6Zf3hvsYkXx8g+t
+        uzmpVzKWVz/EDqu32zTIkqfzh6t3fpoSOz97cXO3tzJbXqzBRdnFsmp+NgWm
+        w7tltl5Of/aMSHeci+vmF5XblPus6u3dvU8f/NA6rlYCY7siDVhW2eyHKaem
+        8x+e4l1Wb6uLoi5+eB02WV1n19Nq2dZVWf4Q46Nls1wvJj/UDttsUuaXxQ9R
+        E1aTn86nP3uavqMUVnWu1uyHF4lRh5Qd/dmUyn6HJpG2bdTvD09Aq+bddrOs
+        rrbLvFpl9Q8tbUJ9/ay6KL3umiZf/mzmabqERY9XVf3DS1f+ouaH6YP9onVO
+        qWda5/ohTuIvWlftD1E06h9mTFT/MJeA6ny6JvH7WfRiOzNH68zZFF7P4np7
+        SvB+1vrtjjRbE4C8KX7ww+tykjX5pz97qe5ed9P6enUruf9musspAfNDJGZR
+        FUukfBC8//BEf0Kp0bc/xO6qqiVVmq1WP5vatNfr+vz8Z9EgdlRANpsVP9TA
+        OTtvfxZH1+vt4qLOLwDlh9flT2fvftY6685e+bO+WNDtcZVN5z88RUOyN81L
+        gfPD6xSh6s+emulQdG+2zR3+rPXXG970hxu6TbMVJbLr7Getv+4Apz9EB3E6
+        p5FNfzZVWpea1WKRLWfbFAv/7Ilhv08KDIvmZ1HN9OhKXRblD1W1SZc/1Jlc
+        Vc0P1/pSAk7sfVb+MPtss2L5s6dQux3Oqun6Z39FoDubzc/eALtdrevyentC
+        eif/2etTiPr9EYf3GcFd0BzCD3708OHujvl4Qb7Oo90deuT9BaIQwff/CQAA
+        //+1CVhZ2CwAAA==
+    http_version: 
+  recorded_at: Wed, 28 Mar 2012 20:08:28 GMT
+- request:
+    method: get
+    uri: http://api.stackexchange.com/2.0/users/78093/tags?filter=!T5FUCxHumN2QdgS1Nc&key=bb855F7mbVFTS9Jwe69THg((&page=3&pagesize=100&site=stackoverflow
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Encoding:
+      - gzip
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Access-Control-Allow-Methods:
+      - GET, POST
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Date:
+      - Wed, 28 Mar 2012 20:08:28 GMT
+      Content-Length:
+      - '436'
+      X-Cache:
+      - MISS from drclaw.cs.byu.edu
+      X-Cache-Lookup:
+      - MISS from drclaw.cs.byu.edu:3128
+      Via:
+      - 1.1 drclaw.cs.byu.edu:3128 (squid/2.7.STABLE9)
+      Connection:
+      - keep-alive
+      Proxy-Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAOy9B2AcSZYlJi9tynt/SvVK1+B0oQiAYBMk2JBAEOzBiM3m
+        kuwdaUcjKasqgcplVmVdZhZAzO2dvPfee++999577733ujudTif33/8/XGZk
+        AWz2zkrayZ4hgKrIHz9+fB8/In7xR0WbL5qPHn3vF3+0zBb5R48+ml42H40+
+        mlbrZfvRo93RR0Xz+9f5L1oXdT776NF5VjY5f7aoZnmdtVX9+1fL8tp+s27y
+        +vcvqOWDg52H90YfzbPm92+ul9XyGr1wo18ysn3N6vUqK7fbeb4olhc/7G4v
+        i/zqhzfWfFoWqyb/4fU3W0+ztqiWP7wef/qHSM1307z8WeutrddhZ6uqbn/W
+        euuO7bwof/bYpDO0Wdb+8PrKz7N12W5Pq9U1/bNs6PspgfxZ678n93lZLEjh
+        /TB7XJXV9SJf/uxxT4/ITXHxw5N56W57lbVE1uUPT/5n+WXxQ1SmYNkfYmfT
+        KtueFMsZGcUfHknJPv0Q+6qadZ3/7A2OpeL7o49+0bpqMwK7yIolXIxHDx/u
+        PDQfL7J31PEOPfL6oqpzg+v/EwAA//+1NeVdGgkAAA==
+    http_version: 
+  recorded_at: Wed, 28 Mar 2012 20:08:28 GMT
+recorded_with: VCR 2.0.0

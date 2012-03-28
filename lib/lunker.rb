@@ -18,11 +18,13 @@ module Lunker
 
   class Configuration
     attr_accessor :api_key, :filter
+    attr_reader :request_object
 
     def initialize
       @api_key = "bb855F7mbVFTS9Jwe69THg(("
       # Default filter: we want the titles and bodies of questions, answers, comments
       @filter = "!T5FUCxHumN2QdgS1Nc"
+      @request_object = HTTParty
     end
   end
 
@@ -52,7 +54,7 @@ module Lunker
       @id = id
     end
 
-    %w(answers questions comments).each do |meth|
+    %w(answers questions comments tags).each do |meth|
       define_method(meth) do |*sort|
         url = "#{SO_URL}/users/#{@id}/#{meth}?pagesize=100&key=#{Lunker.configuration.api_key}&site=stackoverflow&filter=#{Lunker.configuration.filter}"
         # Horribleness to allo an optional sort parameter

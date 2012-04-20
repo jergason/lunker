@@ -32,9 +32,6 @@ module Lunker
     include Lunker::PagedResource
     include Lunker::Utils
 
-    def initialize
-    end
-
     def users(size_limit, parameters={:sort=>'reputation',:order =>'desc',:min =>'100000'})
       parameters = {
         :pagesize => "100",
@@ -45,6 +42,20 @@ module Lunker
       encoded_parameters = parameterize parameters
 
       get_paged_resource "#{SO_URL}/users?#{encoded_parameters}", size_limit
+    end
+
+    # These can only take 100 requests at a time, so split the ids up into batches and run sequentially
+    %w(questions answers).each do |meth|
+      define_method(meth) do |ids|
+        res = []
+        batch = ids.slice!(0...100)
+        while batch.length > 0
+          url = "#{SO_URL}/#{meth}/#{batch.join(";")}?pagesize=100&key=#{Lunker.configuration.api_key}&site=stackoverflow&filter=#{Lunker.configuration.filter}"
+          res += get_paged_resource url
+          batch = ids.slice!(0...100)
+        end
+        res
+      end
     end
   end
 
@@ -57,7 +68,7 @@ module Lunker
     %w(answers questions comments tags).each do |meth|
       define_method(meth) do |*sort|
         url = "#{SO_URL}/users/#{@id}/#{meth}?pagesize=100&key=#{Lunker.configuration.api_key}&site=stackoverflow&filter=#{Lunker.configuration.filter}"
-        # Horribleness to allo an optional sort parameter
+        # Horribleness to allow an optional sort parameter
         unless sort.empty?
           url = "#{url}&sort=#{sort[0]}"
         end

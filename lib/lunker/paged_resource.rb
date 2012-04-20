@@ -1,10 +1,7 @@
-require 'pp'
-
 module Lunker
   module PagedResource
     def get_paged_resource(url, limit=nil)
       res = Lunker.configuration.request_object.get url
-
       raise 'bad get request' unless valid?(res)
 
       data = []

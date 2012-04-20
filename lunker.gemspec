@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name = 'lunker'
-  s.version = '0.0.4'
-  s.date = '2012-02-29'
+  s.version = '0.0.7'
+  s.date = '2012-04-01'
   s.summary = 'A wrapper for the StackExchange API.'
   s.description = 'See the summary.'
   s.authors = ['Jamison Dance']
